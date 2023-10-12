@@ -13,6 +13,7 @@ body {
 h1 {
     color: orange;
     font-style: italic;
+    center;
 }
 
 p {
@@ -25,9 +26,25 @@ ul {
     color: darkseagreen;
 }
 
-image {
-    border-color: aqua;
+/*selecteur multiple : les lien situé dans le nav */
+nav a {
+    text-decoration: none;
+    color: white;
+
 }
+
+nav ul {
+    list-style-type: none;
+    color: darkseagreen;
+}
+
+nav {
+    background-color: darkgray;
+    
+}
+
+
+*****************************************************************
 
 /* selecteur de classe*/
 .gras {
@@ -42,19 +59,29 @@ image {
     text-decoration: underline;
 }
 
-.acceuil{
+.acceuil {
     display: inline;
-    margin-left: 20px;
-}
-.projet{
-    display: inline;
-    margin-left: 20px;
+    padding: 0;
 
 }
-.contact{
+
+.projet {
     display: inline;
-    margin-left: 20px;
+    margin-left: 33%;
+
 }
+
+.contact {
+    display: inline;
+    margin-left: 33%;
+    
+}
+
+.bordure{
+    border: solid 1px red;
+}
+
+**************************************************************************
 /* #paragraphe1 = selecteur (type id)*/
 #paragraphe2 {
     font-size: 20px;
