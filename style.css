@@ -1,5 +1,61 @@
+/* body = selecteur type élément */
 body {
-    font-style: Arial, Helvetica, sans-serif;  ;
+    font-style: italic;
+    /* indique la police de caractère (font)*/
+    color: darkgoldenrod;
+    /*couleur texte*/
+    font-size: 16px;
+    /*taille du texte*/
+    /* font-weight: bold;*/
+    /*poid du texte*/
+}
 
+h1 {
+    color: orange;
+    font-style: italic;
+}
 
+p {
+    color: burlywood;
+    font-style: normal;
+
+}
+
+ul {
+    color: darkseagreen;
+}
+
+image {
+    border-color: aqua;
+}
+
+/* selecteur de classe*/
+.gras {
+    font-weight: bold;
+}
+
+.barre {
+    text-decoration: line-through;
+}
+
+.souligne {
+    text-decoration: underline;
+}
+
+.acceuil{
+    display: inline;
+    margin-left: 20px;
+}
+.projet{
+    display: inline;
+    margin-left: 20px;
+
+}
+.contact{
+    display: inline;
+    margin-left: 20px;
+}
+/* #paragraphe1 = selecteur (type id)*/
+#paragraphe2 {
+    font-size: 20px;
 }
